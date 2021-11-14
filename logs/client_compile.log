@@ -1,0 +1,36 @@
+src\minecraft\net\minecraftforge\client\model\ITransformation.java:3: error: package javax.vecmath does not exist
+import javax.vecmath.Matrix4f;
+                    ^
+src\minecraft\net\minecraftforge\client\model\TRSRTransformation.java:3: error: package javax.vecmath does not exist
+import javax.vecmath.Matrix4f;
+                    ^
+src\minecraft\net\minecraft\client\resources\model\ModelRotation.java:124: error: package javax.vecmath does not exist
+    public javax.vecmath.Matrix4f getMatrix()
+                        ^
+src\minecraft\net\minecraftforge\client\model\ITransformation.java:8: error: cannot find symbol
+    Matrix4f getMatrix();
+    ^
+  symbol:   class Matrix4f
+  location: interface ITransformation
+src\minecraft\net\minecraftforge\client\model\TRSRTransformation.java:8: error: cannot find symbol
+    public TRSRTransformation(Matrix4f matrix)
+                              ^
+  symbol:   class Matrix4f
+  location: class TRSRTransformation
+src\minecraft\optifine\Reflector.java:10: error: package javax.vecmath does not exist
+import javax.vecmath.Matrix4f;
+                    ^
+src\minecraft\net\minecraft\client\resources\model\ModelRotation.java:126: error: package javax.vecmath does not exist
+        return Reflector.ForgeHooksClient_getMatrix.exists() ? (javax.vecmath.Matrix4f)Reflector.call(Reflector.ForgeHooksClient_getMatrix, new Object[] {this}): new javax.vecmath.Matrix4f();
+                                                                             ^
+src\minecraft\net\minecraft\client\resources\model\ModelRotation.java:126: error: package javax.vecmath does not exist
+        return Reflector.ForgeHooksClient_getMatrix.exists() ? (javax.vecmath.Matrix4f)Reflector.call(Reflector.ForgeHooksClient_getMatrix, new Object[] {this}): new javax.vecmath.Matrix4f();
+                                                                                                                                                                                   ^
+src\minecraft\optifine\Reflector.java:172: error: cannot find symbol
+    public static ReflectorMethod ForgeHooksClient_applyTransform = new ReflectorMethod(ForgeHooksClient, "applyTransform", new Class[] {Matrix4f.class, Optional.class});
+                                                                                                                                         ^
+  symbol:   class Matrix4f
+  location: class Reflector
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+9 errors

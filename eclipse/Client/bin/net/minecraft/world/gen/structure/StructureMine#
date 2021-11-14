@@ -1,0 +1,69 @@
+***************
+*** 456,463 ****
+              j = 1;
+           }
+  
+-          int k;
+-          for(lvt_5_1_ = 0; k < this.field_74887_e.func_78883_b(); k = k + 4) {
+              k = k + p_74861_3_.nextInt(this.field_74887_e.func_78883_b());
+              if(k + 3 > this.field_74887_e.func_78883_b()) {
+                 break;
+--- 457,463 ----
+              j = 1;
+           }
+  
++          for(int k = 0; k < this.field_74887_e.func_78883_b(); k = k + 4) {
+              k = k + p_74861_3_.nextInt(this.field_74887_e.func_78883_b());
+              if(k + 3 > this.field_74887_e.func_78883_b()) {
+                 break;
+***************
+*** 470,476 ****
+              }
+           }
+  
+-          for(k = 0; k < this.field_74887_e.func_78883_b(); k = k + 4) {
+              k = k + p_74861_3_.nextInt(this.field_74887_e.func_78883_b());
+              if(k + 3 > this.field_74887_e.func_78883_b()) {
+                 break;
+--- 470,476 ----
+              }
+           }
+  
++          for(int k = 0; k < this.field_74887_e.func_78883_b(); k = k + 4) {
+              k = k + p_74861_3_.nextInt(this.field_74887_e.func_78883_b());
+              if(k + 3 > this.field_74887_e.func_78883_b()) {
+                 break;
+***************
+*** 483,489 ****
+              }
+           }
+  
+-          for(k = 0; k < this.field_74887_e.func_78880_d(); k = k + 4) {
+              k = k + p_74861_3_.nextInt(this.field_74887_e.func_78880_d());
+              if(k + 3 > this.field_74887_e.func_78880_d()) {
+                 break;
+--- 483,489 ----
+              }
+           }
+  
++          for(int k = 0; k < this.field_74887_e.func_78880_d(); k = k + 4) {
+              k = k + p_74861_3_.nextInt(this.field_74887_e.func_78880_d());
+              if(k + 3 > this.field_74887_e.func_78880_d()) {
+                 break;
+***************
+*** 496,502 ****
+              }
+           }
+  
+-          for(k = 0; k < this.field_74887_e.func_78880_d(); k = k + 4) {
+              k = k + p_74861_3_.nextInt(this.field_74887_e.func_78880_d());
+              if(k + 3 > this.field_74887_e.func_78880_d()) {
+                 break;
+--- 496,502 ----
+              }
+           }
+  
++          for(int k = 0; k < this.field_74887_e.func_78880_d(); k = k + 4) {
+              k = k + p_74861_3_.nextInt(this.field_74887_e.func_78880_d());
+              if(k + 3 > this.field_74887_e.func_78880_d()) {
+                 break;
